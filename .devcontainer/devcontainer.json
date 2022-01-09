@@ -1,0 +1,19 @@
+{
+	"name": "Rust Starter",
+	"dockerFile": "Dockerfile",
+	"settings": { 
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash",
+				"icon": "star",
+				"env": {
+					"PLACEHOLDER": "place_holder"
+				}
+			},
+		},
+		"terminal.integrated.defaultProfile.linux": "bash"
+	},
+	"remoteUser": "vscode",
+	//"postCreateCommand": "",
+	"extensions": []
+}
